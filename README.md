@@ -4,7 +4,7 @@ Usefull python scripts to slove overthewire krypton levels
 - frequency_analyzer.py
 
     + Usage:
-        frequency_analyzer.py [-h] [-f FILE] [-g GROUP_SIZE]
+        * frequency_analyzer.py [-h] [-f FILE] [-g GROUP_SIZE]
         
     + Optional arguments:
        + -h , --help                                 Show help message and exit.
@@ -17,7 +17,7 @@ Usefull python scripts to slove overthewire krypton levels
 - vignereCipher_keyShifter.py
 
     + Usage:
-        vigenereCipher_keyShifter.py [-h] [-f FILE] [-g GROUP_SIZE] [-s SHIFT]
+        * vigenereCipher_keyShifter.py [-h] [-f FILE] [-g GROUP_SIZE] [-s SHIFT]
         
     + Optional arguments:
        + -h, --help                                   Show help message and exit.
@@ -32,7 +32,7 @@ Usefull python scripts to slove overthewire krypton levels
 - vigenereCipher_decoder.py
 
     + Usage:
-        vigenereCipher_decoder.py [-h] [-f FILE] [-t TEXT] [-k KEY]
+        * vigenereCipher_decoder.py [-h] [-f FILE] [-t TEXT] [-k KEY]
         
     + Optional arguments:
          + -h, --help                                Show help message and exit.
