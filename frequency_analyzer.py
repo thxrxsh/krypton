@@ -43,10 +43,11 @@ if __name__ == '__main__':
 
 	char_table = sorted(char_table.items(), key=lambda x:x[1], reverse=True)
 
-	for item in char_table:
-		print (item[0],'\t',item[1])
+        for (letter,count) in char_table:
+                print(" %s = %d"%(letter, count))
 
-	print("Total number of the charactors : %s"%tot_char)
+
+	print("\nTotal number of the charactors : %s"%tot_char)
 
 
 
