@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
 	if (count == 0):
 		print (" There are 0 repeated sequences founded :(" )
-		exit(0)
+		exit("Exiting ...")
 
 	else:
 		print(" There are %d repeated sequences founded :) "%count)
