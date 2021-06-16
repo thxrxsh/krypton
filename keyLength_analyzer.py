@@ -3,7 +3,7 @@ import argparse
 if __name__ == '__main__':
 	
 	parser = argparse.ArgumentParser(description="Key length analyzer")
-	parser.add_argument('-f','--file',help="Name of the file that you want to analyze to get the key length")
+	parser.add_argument('-f','--file',help="Name of the file that you want to analyze to get the key length",required=True)
 	args = parser.parse_args()
 
 	try:
